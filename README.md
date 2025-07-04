@@ -5,7 +5,9 @@
 ● Display a summary report of all students.
 ● The interface is console-based or GUI-based as desired.
 
+
 Student.java
+
 public class Student {
     private String name;
     private int score;
@@ -23,7 +25,10 @@ public class Student {
         return score;
     }
 }
+
+
 GradeTracker.java
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
