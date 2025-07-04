@@ -9,7 +9,9 @@
 Student.java
 
 public class Student {
+   
     private String name;
+   
     private int score;
 
     public Student(String name, int score) {
@@ -32,12 +34,16 @@ GradeTracker.java
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class GradeTracker {
+public class GradeTracker  (
+   
     public static void main(String[] args) {
+        
         System.out.println("Hello from GradeTracker!");
+      
         Scanner scanner = new Scanner(System.in);
+        
         ArrayList<Student> students = new ArrayList<>();
-
+        
         System.out.println("=== Student Grade Tracker ===");
 
         while (true) {
